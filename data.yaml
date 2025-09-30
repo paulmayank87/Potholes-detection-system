@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['pothole']
+
+roboflow:
+  workspace: mayank-jagmc
+  project: pothole-vhmow-ibwnf
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/mayank-jagmc/pothole-vhmow-ibwnf/dataset/1
